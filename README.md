@@ -9,7 +9,7 @@ contains the codes which operates my web portfolio.
 - Let's do that, open a pull request, I will check it
 as soon as possible.
 
-## What are the tools and language used ?
+## What are the language and tools used ?
 
 - Just a simple HTML and CSS.
 

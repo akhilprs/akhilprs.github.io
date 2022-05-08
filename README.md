@@ -8,6 +8,7 @@ contains the codes which operates my web portfolio.
 
 - Let's do that, open a pull request, I will check it
 as soon as possible.
+This codes are made under GNU Licence which means anyone can use for their personal use but in positive way.
 
 ## What are the language and tools used ?
 

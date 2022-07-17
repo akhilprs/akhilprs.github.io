@@ -13,7 +13,7 @@ as soon as possible.
 
 ## Open Source ❤️
 
-This codes are made under GNU Licence which means anyone can use for
+This codes are made under AGPL Licence which means anyone can use for
 their personal use but in positive way.
 
 ## What are the language and tools used ?

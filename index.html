@@ -64,6 +64,34 @@
                 
             </div>
         </div>
+</div>
+    <div id="display">
+        <div id="Achievements" style="display: block;">
+            <h1>About Me</h1>
+            <div class="Achievements" id="achievements_section">
+                
+                 
+                    <section>
+                       
+                        <div class="about_section">
+                            <span style="display:block;"> ➪ Edureka Intern
+                                                          ➪ Edx Alumnus          </span>
+                        </div>
+                        <!--
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 6</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                        -->
+                    </section>
+                </a>
+                
+                
+                
+                
+            </div>
+        </div>
         
         <div id="work">
             <h1>Projects</h1>
@@ -130,6 +158,16 @@
             maxColumns: 2,
             useTransform: true
         });
+        
+       const magicLinksGrid = new MagicGrid({
+            container: "#achievements_section",
+            animate: false,
+            gutter: 30, // default gutter size
+            static: true,
+            useMin: false,
+            maxColumns: 2,
+            useTransform: true
+        });
 
         $("document").ready(() => {
             magicProjectsGrid.listen();
@@ -138,7 +176,7 @@
     </script>
     <script type="text/javascript " src="static/js/typed.min.js"></script>
     <script>
-        var desc_strings = ["Hello,", "I am Akhil Parmar", "from Mau, Uttar Pradesh", "India 🇮🇳"];
+        var desc_strings = ["Hello,", "I am Akhil Parmar from", "Mau, Uttar Pradesh", "India 🇮🇳"];
         $("#userbio").typed({
             strings: desc_strings,
             typeSpeed: 5,
